@@ -1,0 +1,29 @@
+{
+    "name": "apinode",
+    "version": "1.0.0",
+    "description": "API REST en NodeJS",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/catalan.seb/apinode.git"
+    },
+    "author": "Sebastian Catalan Araya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/catalan.seb/apinode/issues"
+    },
+    "homepage": "https://gitlab.com/catalan.seb/apinode#readme",
+    "dependencies": {
+        "awilix": "^4.3.3",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "dotenv": "^8.2.0",
+        "nodemon": "^2.0.4"
+    }
+}
